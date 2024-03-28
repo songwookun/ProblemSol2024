@@ -6,8 +6,8 @@ TagManager:
   tags:
   - Wall
   - GreenBox
-  - Red
   - RedBox
+  - RedCube
   layers:
   - Default
   - TransparentFX

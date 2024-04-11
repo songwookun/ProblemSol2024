@@ -40,17 +40,17 @@ public class StaticMeshGen : MonoBehaviour
             new Vector3 (-0.95f, 0.30f, 1.00f),
             new Vector3 (-0.225f, 0.30f, 1.00f),
 
-            new Vector3 (0.00f, 0.00f, 2.00f),
-            new Vector3 (0.00f, 1.00f, 2.00f),
-            new Vector3 (0.225f, 0.30f, 2.00f),
-            new Vector3 (0.95f, 0.30f, 2.00f),
-            new Vector3 (0.36f, -0.12f, 2.00f),
-            new Vector3 (0.58f, -0.80f, 2.00f),
-            new Vector3 (0.00f, -0.38f, 2.00f),
-            new Vector3 (-0.58f, -0.80f, 2.00f),
-            new Vector3 (-0.36f, -0.12f, 2.00f),
-            new Vector3 (-0.95f, 0.30f, 2.00f),
-            new Vector3 (-0.225f, 0.30f, 2.00f),
+            new Vector3 (0.00f, 0.00f, 3.00f),
+            new Vector3 (0.00f, 1.00f, 3.00f),
+            new Vector3 (0.225f, 0.30f, 3.00f),
+            new Vector3 (0.95f, 0.30f, 3.00f),
+            new Vector3 (0.36f, -0.12f, 3.00f),
+            new Vector3 (0.58f, -0.80f, 3.00f),
+            new Vector3 (0.00f, -0.38f, 3.00f),
+            new Vector3 (-0.58f, -0.80f, 3.00f),
+            new Vector3 (-0.36f, -0.12f, 3.00f),
+            new Vector3 (-0.95f, 0.30f, 3.00f),
+            new Vector3 (-0.225f, 0.30f, 3.00f),
         };
 
         mesh.vertices = vertices;
@@ -70,6 +70,7 @@ public class StaticMeshGen : MonoBehaviour
 
         mesh.triangles = triangleIndices;
 
+
         if (this.GetComponent<MeshFilter>() != null)
         {
             MeshFilter abc = this.GetComponent<MeshFilter>();
@@ -79,5 +80,8 @@ public class StaticMeshGen : MonoBehaviour
         MeshRenderer mr = gameObject.AddComponent<MeshRenderer>();
 
         mf.mesh = mesh;
+
+        
+        mesh.RecalculateNormals();
     }
 }

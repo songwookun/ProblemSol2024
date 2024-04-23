@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: Cartoon
   m_Shader: {fileID: 4800000, guid: f74867b0604fa2a40afc54d268c019ad, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -22,17 +22,12 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
     - _Shininess: 32
     m_Colors:
-    - _DiffueseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _DiffuseColor: {r: 0.98213845, g: 0.9924528, b: 0, a: 1}
-    - _LightDirection: {r: 1, g: 1, b: 0, a: 0}
+    - _DiffuseColor: {r: 0.9642808, g: 1, b: 0.34528297, a: 1}
+    - _LightDirection: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

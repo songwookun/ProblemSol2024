@@ -8,6 +8,13 @@ TagManager:
   - GreenBox
   - RedBox
   - RedCube
+  - End
+  - Enemy
+  - key
+  - Item
+  - Door
+  - Enemyeye
+  - Start
   layers:
   - Default
   - TransparentFX

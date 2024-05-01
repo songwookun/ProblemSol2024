@@ -27,7 +27,7 @@ Material:
     m_Floats:
     - _Shininess: 32
     m_Colors:
-    - _DiffuseColor: {r: 0.9642808, g: 1, b: 0.34528297, a: 1}
+    - _DiffuseColor: {r: 1, g: 0.016336443, b: 0, a: 1}
     - _LightDirection: {r: 0, g: 1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
